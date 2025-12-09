@@ -20,3 +20,7 @@ __pycache__/
 # =========================================================
 .DS_Store
 Thumbs.db
+
+# images フォルダは PNG を ignore しない
+!images/
+!images/**
