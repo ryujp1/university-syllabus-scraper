@@ -34,19 +34,19 @@
 
 ### STEP 1: 基本条件の入力
 認証情報や、検索したい年度・キャンパスを対話形式で指定します。
-![Step1](./images/対話1.png)
+<img src="./images/対話1.png" width="700">
 
 ### STEP 2: 動的項目の選択
 学部を選択すると、Webサイト側の更新（Ajax）を検知し、最新の「学年」や「学期」の選択肢を自動で読み込んで提示します。
-![Step2](./images/対話2.png)
+<img src="./images/対話2.png" width="700">
 
 ### STEP 3: 実行と保存
 条件に合致するデータを抽出し、整形されたCSVファイルとして保存します。
-![Step3](./images/対話3.png)
+<img src="./images/対話3.png" width="700">
 
 ### 成果物 (Output)
 非構造なWebデータを、分析可能なクリーンなデータとして出力します。
-![Output](./images/実行結果.png)
+<img src="./images/実行結果.png" width="700">
 *(※ プライバシー保護のため、教員名等はマスキングしています)*
 
 ---
