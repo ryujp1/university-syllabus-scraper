@@ -34,11 +34,11 @@
 
 ### STEP 1: 基本条件の入力
 認証情報や、検索したい年度・キャンパスを対話形式で指定します。
-<img src="./images/対話1.png" width="450">
+<img src="./images/対話1.png" width="350">
 
 ### STEP 2: 動的項目の選択
 学部を選択すると、Webサイト側の更新（Ajax）を検知し、最新の「学年」や「学期」の選択肢を自動で読み込んで提示します。
-<img src="./images/対話2.png" width="450">
+<img src="./images/対話2.png" width="350">
 
 ### STEP 3: 実行と保存
 条件に合致するデータを抽出し、整形されたCSVファイルとして保存します。
@@ -77,7 +77,7 @@
 
 1.  **リポジトリのクローン**
     ```bash
-    git clone [https://github.com/](https://github.com/)ryujp1/university-syllabus-scraper.git
+    git clone https://github.com/ryujp1/university-syllabus-scraper.git
     cd university-syllabus-scraper
     ```
 
@@ -88,7 +88,7 @@
 
 3.  **実行**
     ```bash
-    python scraper.py
+    python university-syllabus-scraper.py
     ```
     画面の指示に従って、URLや検索条件を入力してください。
 
